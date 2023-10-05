@@ -1,0 +1,22 @@
+body {
+    background: #2b2b2b;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+span {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background: url(https://images.squarespace-cdn.com/content/v1/5c490d0755b02c13b37c2e8b/1592578806701-V8WHZ039BZB95IH2OPNH/ke17ZwdGBToddI8pDm48kGvU7fXyFjRtFCFN08Nt6iR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gEQC0rDR7CX68RMGfHFzPxi920GDe_RMMqJ-3X87qbVtO-yqcUMr4s4zLYBqjPmCw/Best+Yacht+Charter+Cosmos.png?format=2500w);
+    pointer-events: none;
+    border-radius: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}

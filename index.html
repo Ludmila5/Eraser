@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Eraser</title>
+<link rel="stylesheet" href="main.css" />
+    
+</head>
+<body>
+    
+   <h1>Eraser</h1> 
+  
+<script>
+        document.addEventListener('mousemove', function(e) {
+            const mybody = document.querySelector('body');
+            const round = document.createElement('span');
+            round.style.left = -125 + e.offsetX + 'px';
+            round.style.top = -125 + e.offsetY + 'px';
+            mybody.appendChild(round);
+        });
+    </script>
+</body>
+</html>
